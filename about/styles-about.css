@@ -1,0 +1,286 @@
+/* Apply fonts using these calls: 
+
+font-family: 'Merriweather', serif;
+font-family: 'Roboto', sans-serif;
+
+*/
+
+/* Color selections for project:
+
+Background: #F2F1E8;
+Text: #131511;
+Inline Link: #968772;
+Inline Link (Hover): #967343;
+Navigation Background: #FFFFFF;
+Navigation Text: #2B2F26
+Navigation Text (Hover): #CD5D67
+Navigation Text (Active) #968772
+Button Background: #968772
+Button Background (Hover): #967343
+Button Text: #F2F1E8
+Button Text (Hover): #FFFFFF
+Input Border Bottom: #968772
+Input Border Bottom (Focus): #967343
+
+./
+
+/* NAVIGATION SECTION AND HEADER BELOW: */
+
+body {
+	background-color: #F2F1E8;
+	font-family: "Merriweather" , serif;
+	margin: 0rem 0rem 0rem 0rem;
+
+}
+
+header {
+	display: flex;
+	position: fixed;
+	top: -17px;
+	color: #2B2F26;
+	font-family: Roboto , serif;
+	font-size: 1.2em;
+	z-index: 1
+}
+
+.fixedheader {
+	display: flex;
+  flex-direction: row;
+  background-color: #FFFFFF;
+  justify-content: center;
+	align-items: center;
+  height: 55px;
+  width: 1573px;
+	list-style: none;
+	color: #2B2F26;
+	font-size: 17px;
+	
+}
+.linklist {
+	margin: 2px 0px 2px 0px;
+}
+
+#links {
+	color: #2B2F26;
+  padding: 0px 36px 0px 36px;
+	position: relative;
+	right: 83px;
+	font-size: 1.01em;
+}
+
+#selected_link > a:visited {
+  color: #968772;
+}
+
+#links:hover {
+	color: #CD5D67;
+}
+
+#links:active {
+	color: #968772;
+}
+
+.bentcreeklogo {
+	max-width: 45px;
+  max-height: 45px;
+  position: fixed;
+  top: 6px;
+  left: 18px;
+	z-index: 1;
+}
+
+.about_logoarea {
+	display: flex;
+  flex-direction: row;
+  height: 12rem;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 70px;
+  font-weight: lighter;
+}
+
+/* --- Text Section below: --- */
+
+article {
+	color: #131511;
+}
+
+
+.about_text {
+	display: flex;
+	flex-direction: row;
+	margin: 8px;
+	padding: 0rem 15rem;
+	flex-wrap: wrap;
+}
+
+.inline_link {
+	color: #968772
+}
+
+.inline_link:hover {
+	color: #967343;
+}
+
+
+.birdhouse {
+	height: 12rem;
+	width: 16rem;
+	float: left;
+	padding-top: 1rem;
+}
+
+.description_one {
+	width: 66%;
+  line-height: 50px;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 0rem 2rem 0rem 2rem;
+}
+
+.description_two {
+	width: 100%;
+  line-height: 50px;
+  font-size: 18px;
+  font-weight: 300;
+  position: relative;
+	bottom: 2rem;
+}
+
+.blockquote {
+	border-left: 2px solid #2B2F26;
+  padding-left: 2rem;
+  line-height: 26px;
+  position: relative;
+  bottom: 3rem;
+  color: #2B2F26;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.history_section {
+	display: flex;
+	flex-direction: column;
+	padding: 0rem 15rem;
+	position: relative;
+}
+
+.history_header {
+	font-size: 3em;
+  position: relative;
+  bottom: 5rem;
+  font-weight: lighter;
+}
+
+.history_section > p {
+	width: 57rem;  
+	line-height: 50px;
+  font-size: 18px;
+  font-weight: 300;
+	position: relative;
+  bottom: 8rem;
+}
+
+.container-growth {
+	display: flex;
+  background: url(../images/background-3.jpg);
+  justify-content: center;
+	background-repeat: no-repeat;
+  width: 100%;
+  min-height: 30rem;
+  background-position-x: -25rem;
+  background-position-y: -20rem;
+	position: relative;
+	bottom: 7rem;
+}
+
+.container-growth > h3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #F2F1E8;
+	font-size: 90px;
+	font-weight: 300;
+}
+
+.facilities {
+	display: flex;
+  flex-direction: row;
+  padding: 0rem 15rem;
+  font-size: 3em;
+  font-weight: lighter;
+  position: relative;
+  bottom: 7rem;
+}
+
+.facilities_text {
+	display: flex;
+	flex-direction: row;
+	padding: 0rem 15rem;
+	min-height: 10rem;
+	position: relative;
+	bottom: 10rem;
+}
+
+#facilities_body {
+	line-height: 50px;
+  font-size: 20px;
+  font-weight: 300;
+  padding-right: 2rem;
+}
+
+#sidepic_info {
+	position: relative;
+  top: 45px;
+  font-size: 14px;
+  font-weight: lighter;
+  line-height: 32px;
+}
+
+#pots_picture {
+	height: 10rem;
+	position: relative;
+}
+
+.monthly_plans {
+	display: flex;
+  flex-direction: row;
+  padding: 0rem 15rem;
+  font-size: 3em;
+  font-weight: lighter;
+  position: relative;
+  bottom: 12rem;
+}
+
+.table {
+	display: flex;
+  flex-direction: row;
+  padding: 0rem 15rem;
+  position: relative;
+  bottom: 13rem;
+  border-collapse: collapse;
+}
+
+.table_header {
+	text-align: center;
+	border-collapse: collapse;
+}
+
+th, tr, td {
+	border: 1px solid #2B2F26;
+  border-collapse: collapse;
+  padding: 15px 35px;
+}
+
+#tablerow_1 , #tablerow_3 {
+	background-color: #F2EADD;
+}
+
+footer {
+	display: flex;
+	background-color: #2B2F26;
+	color: #F2F1E8;
+	margin: 0px;
+  width: 100%;
+}

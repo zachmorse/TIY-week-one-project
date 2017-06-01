@@ -1,0 +1,164 @@
+
+/* NAVIGATION SECTION BELOW: */
+
+body {
+	font-family: "Merriweather" , serif;
+	margin: auto;
+	min-height: 100vh;
+	min-width: 100%;
+}
+
+header {
+	display: flex;
+	position: fixed;
+	top: -17px;
+	color: #2B2F26;
+	font-family: Roboto , serif;
+	font-size: 1.2em;
+	z-index: 1;
+}
+
+.fixedheader {
+	display: flex;
+  flex-direction: row;
+  background-color: #FFFFFF;
+  justify-content: center;
+	align-items: center;
+  height: 55px;
+  width: 1573px;
+	list-style: none;
+	color: #2B2F26;
+	font-size: 17px;	
+}
+
+.linklist {
+	margin: 2px 0px 2px 0px;
+}
+
+#links {
+	color: #2B2F26;
+  padding: 0px 36px 0px 36px;
+	position: relative;
+	right: 83px;
+	font-size: 1.01em;
+}
+
+#selected_link > a:visited {
+  color: #968772;
+}
+
+#links:hover {
+	color: #CD5D67;
+}
+
+#links:active {
+	color: #968772;
+}
+
+.bentcreeklogo {
+	max-width: 45px;
+  max-height: 45px;
+  position: fixed;
+  top: 6px;
+  left: 18px;
+	z-index: 1;
+}
+
+#page_centering {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.background-container {
+  display: flex;
+	flex-direction: column;
+	background: url(../images/background-2.jpg);
+  background-repeat: no-repeat;
+	justify-content: center;
+  width: 1440px;
+  min-height: 50rem;
+  background-position-x: 0rem;
+  background-position-y: 0rem;
+  background-size: cover;
+	align-items: center;
+	font-family: Merriweather;
+	text-align: center;
+}
+
+.signup-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	height: 25rem;
+	width: 43rem;
+	background-color: #FFFFFF;
+	
+}
+
+.form {
+	border: none;
+	margin: 1px;
+	font-size: 22px;
+}
+
+#banner {
+	font-size: 28px;
+  font-weight: lighter;
+  line-height: 3rem;
+  padding-top: 2rem;  
+}
+
+#uptodate {
+	font-size: 22px;
+  font-weight: lighter;
+  line-height: 3rem;
+}
+
+#nameInput {
+	height: 2rem;
+  width: 39rem;
+  text-align: left;
+	color: #968772;
+  border: none;
+  border-bottom: 2px solid #968772;
+  position: relative;
+  top: 2rem;
+}
+
+#nameInput:hover {
+	border-bottom: 2px solid #967343;
+}
+
+#emailInput {
+	height: 2rem;
+  width: 39rem;
+  text-align: left;
+	color: #968772;
+  border: none;
+  border-bottom: 2px solid #968772;
+  position: relative;
+  top: 3rem;
+}
+
+#emailInput:hover {
+	border-bottom: 2px solid #967343;
+}
+
+input {
+	outline: none;
+}
+
+#signupButton {
+	height: 4rem;
+	width: 10rem;
+	position: relative; 
+	top: 6rem;
+	border: 1px solid #968772;
+	background-color: #968772;
+	color: #F2F1E8;
+}
+
+#signupButton:hover {
+	background-color: #967343;
+}
